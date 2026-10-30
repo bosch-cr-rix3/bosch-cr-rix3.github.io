@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
+import ImageOutlineIcon from "mdi-material-ui/ImageOutline";
 import type { Publication } from "./data";
 
 interface PublicationGridProps {
@@ -71,12 +72,32 @@ function PublicationGrid({ publications, filterable = false }: PublicationGridPr
               }}
               variant="outlined"
             >
-              <CardMedia
-                alt={publication.title}
-                component="img"
-                image={publication.img}
-                sx={{ aspectRatio: "16 / 9", objectFit: "cover" }}
-              />
+              {publication.img ? (
+                <CardMedia
+                  alt={publication.title}
+                  component="img"
+                  image={publication.img}
+                  sx={{ aspectRatio: "16 / 9", objectFit: "cover" }}
+                />
+              ) : (
+                <CardMedia
+                  aria-label={`${publication.title} image placeholder`}
+                  component="div"
+                  role="img"
+                  sx={{
+                    aspectRatio: "16 / 9",
+                    display: "grid",
+                    placeItems: "center",
+                    bgcolor: "background.default",
+                    color: "text.secondary",
+                  }}
+                >
+                  <Stack spacing={0.75} sx={{ alignItems: "center" }}>
+                    <ImageOutlineIcon fontSize="large" />
+                    <Typography variant="caption">Image placeholder</Typography>
+                  </Stack>
+                </CardMedia>
+              )}
               <CardContent sx={{ display: "flex", flex: 1, flexDirection: "column", gap: 1.25, p: 2.5 }}>
                 <Chip
                   label={publication.badge}

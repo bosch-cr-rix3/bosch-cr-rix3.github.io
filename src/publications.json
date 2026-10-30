@@ -1,0 +1,1214 @@
+[
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/HNM7DCI3",
+		"type": "paper-conference",
+		"container-title": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"DOI": "10.1109/IROS55552.2023.10342368",
+		"event-place": "Detroit, MI, USA",
+		"event-title": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"ISBN": "978-1-66549-190-7",
+		"page": "5707-5714",
+		"publisher": "IEEE",
+		"publisher-place": "Detroit, MI, USA",
+		"source": "DOI.org (Crossref)",
+		"title": "SemanticBEVFusion: Rethinking LiDAR-Camera Fusion in Unified Bird's-Eye View Representation for 3D Object Detection",
+		"title-short": "SemanticBEVFusion",
+		"URL": "https://ieeexplore.ieee.org/document/10342368/",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Qi"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/H884TX95",
+		"type": "paper-conference",
+		"container-title": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"DOI": "10.1109/IROS58592.2024.10802435",
+		"event-place": "Abu Dhabi, United Arab Emirates",
+		"event-title": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"ISBN": "9798350377705",
+		"page": "480-487",
+		"publisher": "IEEE",
+		"publisher-place": "Abu Dhabi, United Arab Emirates",
+		"source": "DOI.org (Crossref)",
+		"title": "VoxelContrast: Voxel Contrast-Based Unsupervised Learning for 3D Point Clouds",
+		"title-short": "VoxelContrast",
+		"URL": "https://ieeexplore.ieee.org/document/10802435/",
+		"author": [
+			{
+				"family": "Qin",
+				"given": "Yuxiang"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					10,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/LNEWMI9F",
+		"type": "paper-conference",
+		"container-title": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+		"DOI": "10.1109/ICRA57147.2024.10610830",
+		"event-place": "Yokohama, Japan",
+		"event-title": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+		"ISBN": "9798350384574",
+		"page": "6600-6606",
+		"publisher": "IEEE",
+		"publisher-place": "Yokohama, Japan",
+		"source": "DOI.org (Crossref)",
+		"title": "LSSAttn: Towards Dense and Accurate View Transformation for Multi-modal 3D Object Detection",
+		"title-short": "LSSAttn",
+		"URL": "https://ieeexplore.ieee.org/document/10610830/",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Qi"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					5,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/E7A6NZCU",
+		"type": "paper-conference",
+		"container-title": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
+		"DOI": "10.1109/VTC2025-Fall65116.2025.11310495",
+		"event-place": "Chengdu, China",
+		"event-title": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
+		"ISBN": "9798331503208",
+		"page": "1-5",
+		"publisher": "IEEE",
+		"publisher-place": "Chengdu, China",
+		"source": "DOI.org (Crossref)",
+		"title": "Latency-Aware Function Offloading with 5G Integration for Intelligent Connected Vehicles",
+		"URL": "https://ieeexplore.ieee.org/document/11310495/",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Nan"
+			},
+			{
+				"family": "Du",
+				"given": "Yifan"
+			},
+			{
+				"family": "Li",
+				"given": "Shuo"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/3KIY8KIZ",
+		"type": "paper-conference",
+		"container-title": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"DOI": "10.1109/IROS60139.2025.11246853",
+		"event-place": "Hangzhou, China",
+		"event-title": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+		"ISBN": "9798331543938",
+		"page": "13560-13567",
+		"publisher": "IEEE",
+		"publisher-place": "Hangzhou, China",
+		"source": "DOI.org (Crossref)",
+		"title": "SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map Construction",
+		"title-short": "SparseMeXt",
+		"URL": "https://ieeexplore.ieee.org/document/11246853/",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Chai",
+				"given": "Jinhao"
+			},
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Sun",
+				"given": "Zhigang"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Zhao",
+				"given": "Zezhong"
+			},
+			{
+				"family": "Sun",
+				"given": "Li"
+			},
+			{
+				"family": "Zhou",
+				"given": "Jian"
+			},
+			{
+				"family": "Zhu",
+				"given": "Lijuan"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hao"
+			},
+			{
+				"family": "Xu",
+				"given": "Shugong"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/29T8F58Z",
+		"type": "article",
+		"abstract": "Vision-Language-Action (VLA) models have demonstrated potential in autonomous driving. However, two critical challenges hinder their development: (1) Existing VLA architectures are typically based on imitation learning in open-loop setup which tends to capture the recorded behaviors in the dataset, leading to suboptimal and constrained performance, (2) Close-loop training relies heavily on high-fidelity sensor simulation, where domain gaps and computational inefficiencies pose significant barriers. In this paper, we introduce IRL-VLA, a novel close-loop Reinforcement Learning via \\textbf{I}nverse \\textbf{R}einforcement \\textbf{L}earning reward world model with a self-built VLA approach. Our framework proceeds in a three-stage paradigm: In the first stage, we propose a VLA architecture and pretrain the VLA policy via imitation learning. In the second stage, we construct a lightweight reward world model via inverse reinforcement learning to enable efficient close-loop reward computation. To further enhance planning performance, finally, we design specialized reward world model guidence reinforcement learning via PPO(Proximal Policy Optimization) to effectively balance the safety incidents, comfortable driving, and traffic efficiency. Our approach achieves state-of-the-art performance in NAVSIM v2 end-to-end driving benchmark, 1st runner up in CVPR2025 Autonomous Grand Challenge. We hope that our framework will accelerate VLA research in close-loop autonomous driving.",
+		"note": "arXiv:2508.06571 [cs:AI, cs:cs:CV, cs:cs:RO]",
+		"number": "arXiv:2508.06571",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model",
+		"title-short": "IRL-VLA",
+		"URL": "http://arxiv.org/abs/2508.06571",
+		"author": [
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Sun",
+				"given": "Zhigang"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuo"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Tang",
+				"given": "Shichen"
+			},
+			{
+				"family": "Zhu",
+				"given": "Lijuan"
+			},
+			{
+				"family": "Chai",
+				"given": "Jinhao"
+			},
+			{
+				"family": "Wang",
+				"given": "Jijun"
+			},
+			{
+				"family": "Gu",
+				"given": "Zichong"
+			},
+			{
+				"family": "Jiang",
+				"given": "Hao"
+			},
+			{
+				"family": "Sun",
+				"given": "Li"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					8,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/AXH5X6AB",
+		"type": "paper-conference",
+		"container-title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+		"DOI": "10.1109/ICRA57385.2026.11696998",
+		"event-place": "Vienna, Austria",
+		"event-title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+		"ISBN": "9798331581602",
+		"page": "9042-9049",
+		"publisher": "IEEE",
+		"publisher-place": "Vienna, Austria",
+		"source": "DOI.org (Crossref)",
+		"title": "UniUncer: Unified Dynamic–Static Uncertainty for End-to-End Driving",
+		"title-short": "UniUncer",
+		"URL": "https://ieeexplore.ieee.org/document/11696998/",
+		"author": [
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Wang",
+				"given": "Jijun"
+			},
+			{
+				"family": "Zhang",
+				"given": "Zongzheng"
+			},
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuo"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Hu",
+				"given": "Zhangfeng"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/VXFMEA6W",
+		"type": "paper-conference",
+		"container-title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+		"DOI": "10.1109/ICRA57385.2026.11696336",
+		"event-place": "Vienna, Austria",
+		"event-title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
+		"ISBN": "9798331581602",
+		"page": "8128-8135",
+		"publisher": "IEEE",
+		"publisher-place": "Vienna, Austria",
+		"source": "DOI.org (Crossref)",
+		"title": "Unified Map Prior Encoder for Mapping and Planning",
+		"URL": "https://ieeexplore.ieee.org/document/11696336/",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Zongzheng"
+			},
+			{
+				"family": "Zou",
+				"given": "Sizhe"
+			},
+			{
+				"family": "Zheng",
+				"given": "Guantian"
+			},
+			{
+				"family": "Zhu",
+				"given": "Zhenxin"
+			},
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Chi",
+				"given": "Guoxuan"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuo"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Sun",
+				"given": "Zhigang"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Ma",
+				"given": "Chao"
+			},
+			{
+				"family": "Li",
+				"given": "Zhen"
+			},
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/PMEPQLAX",
+		"type": "article",
+		"abstract": "Vision-Language-Action (VLA) models offer promising capabilities for autonomous driving through multimodal understanding. However, their utilization in safety-critical scenarios is constrained by inherent limitations, including imprecise numerical reasoning, weak 3D spatial awareness, and high sensitivity to context. To address these challenges, we propose HiST-VLA, a novel Hierarchical Spatio-Temporal VLA model designed for reliable trajectory generation. Our framework enhances 3D spatial and temporal reasoning by integrating geometric awareness with fine-grained driving commands and state history prompting. To ensure computational efficiency, we integrate dynamic token sparsification into the VLA architecture. This approach fuses redundant tokens rather than filtering them, effectively reducing redundancy without sacrificing model performance. Furthermore, we employ a hierarchical transformer-based planner to progressively refine coarse VLA waypoints into fine-grained trajectories. Crucially, the planner utilizes dynamic latent regularization to incorporate language commands, ensuring strict spatial grounding and temporal coherence. Extensive evaluation on the NAVSIM v2 benchmark demonstrates state-of-the-art performance on Navtest, achieving an EPDMS of 88.6, and EPDMS of 50.9 on pseudo closed-loop Navhard benchmark.",
+		"note": "arXiv:2602.13329 [cs:CV, cs:cs:AI, cs:cs:RO]",
+		"number": "arXiv:2602.13329",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving",
+		"title-short": "HiST-VLA",
+		"URL": "http://arxiv.org/abs/2602.13329",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Gu",
+				"given": "Zichong"
+			},
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Sun",
+				"given": "Zhigang"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuo"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					2,
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/PIEUXQQP",
+		"type": "article-journal",
+		"container-title": "IEEE Transactions on Vehicular Technology",
+		"DOI": "10.1109/TVT.2018.2890416",
+		"ISSN": "0018-9545, 1939-9359",
+		"issue": "2",
+		"journalAbbreviation": "IEEE Trans. Veh. Technol.",
+		"page": "1339-1350",
+		"source": "DOI.org (Crossref)",
+		"title": "Autonomous Exploration and Mapping System Using Heterogeneous UAVs and UGVs in GPS-Denied Environments",
+		"URL": "https://ieeexplore.ieee.org/document/8598942/",
+		"volume": "68",
+		"author": [
+			{
+				"family": "Qin",
+				"given": "Hailong"
+			},
+			{
+				"family": "Meng",
+				"given": "Zehui"
+			},
+			{
+				"family": "Meng",
+				"given": "Wei"
+			},
+			{
+				"family": "Chen",
+				"given": "Xudong"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Lin",
+				"given": "Feng"
+			},
+			{
+				"family": "Ang",
+				"given": "Marcelo H."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/S9BX3T3R",
+		"type": "article-journal",
+		"container-title": "Communications in Transportation Research",
+		"DOI": "10.1016/j.commtr.2025.100191",
+		"ISSN": "27724247",
+		"journalAbbreviation": "Communications in Transportation Research",
+		"language": "en",
+		"page": "100191",
+		"source": "DOI.org (Crossref)",
+		"title": "Towards robust motion control in multi-source uncertain scenarios by robust policy iteration",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S2772424725000319",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Li",
+				"given": "Jie"
+			},
+			{
+				"family": "Tao",
+				"given": "Letian"
+			},
+			{
+				"family": "Zou",
+				"given": "Wenjun"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yuhang"
+			},
+			{
+				"family": "Shuai",
+				"given": "Bin"
+			},
+			{
+				"family": "Duan",
+				"given": "Jingliang"
+			},
+			{
+				"family": "Li",
+				"given": "Shengbo Eben"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/ZVSKQWNS",
+		"type": "paper-conference",
+		"container-title": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
+		"DOI": "10.1109/VTC2025-Fall65116.2025.11310629",
+		"event-place": "Chengdu, China",
+		"event-title": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
+		"ISBN": "9798331503208",
+		"page": "1-5",
+		"publisher": "IEEE",
+		"publisher-place": "Chengdu, China",
+		"source": "DOI.org (Crossref)",
+		"title": "Dependability-Aware Coordination for Infrastructure-Side Critical V2X Services",
+		"URL": "https://ieeexplore.ieee.org/document/11310629/",
+		"author": [
+			{
+				"family": "Du",
+				"given": "Yifan"
+			},
+			{
+				"family": "Li",
+				"given": "Nan"
+			},
+			{
+				"family": "Li",
+				"given": "Shuo"
+			},
+			{
+				"family": "Zhang",
+				"given": "Lei"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					10,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/8PIEKIDB",
+		"type": "article",
+		"abstract": "Traffic elements such as traffic lights and road signs play a fundamental role in human driving decisions and should naturally influence end-to-end driving performance. However, existing end-to-end driving research predominantly focuses on dynamic road participants (e.g., vehicles and pedestrians), while the role of traffic elements remains largely unexplored. The community still lacks a systematic study quantifying their impact, largely because public datasets rarely provide structured traffic-element annotations and modern driving systems vary widely in architecture and training paradigm. In this work, we present the first systematic investigation of traffic element awareness for end-to-end autonomous driving. We construct a unified research infrastructure by augmenting multiple public driving datasets with comprehensive traffic-element annotations. To support diverse model families, we adopt a minimal and universal integration design that incorporates traffic-element signals into existing pipelines in a plug-and-play manner with negligible architectural modification. We evaluate this design across modern paradigms, including perception-prediction-planning pipelines, vision-language-action models (VLA), regression-based planners, diffusion-based policies, and trajectory-scoring frameworks, on nuScenes, NAVSIM-v1, NAVSIM-v2, and Bench2Drive. Across all paradigms and datasets, this simple integration consistently improves driving performance, demonstrating that traffic element awareness provides a robust and generalizable signal for end-to-end driving systems. Notably, on the challenging NAVSIM-v2 benchmark, our approach significantly improves state-of-the-art architectures and data pipelines, establishing a new state of the art.",
+		"note": "arXiv:2608.18035 [cs:CV]",
+		"number": "arXiv:2608.18035",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving",
+		"URL": "http://arxiv.org/abs/2608.18035",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Zongzheng"
+			},
+			{
+				"family": "Wang",
+				"given": "Jijun"
+			},
+			{
+				"family": "Zhang",
+				"given": "Saining"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuo"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Yang",
+				"given": "Hai"
+			},
+			{
+				"family": "Chen",
+				"given": "Yang"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					8,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/L6IAXTTA",
+		"type": "chapter",
+		"container-title": "Computer Vision – ECCV 2026",
+		"event-place": "Cham",
+		"ISBN": "978-3-032-37091-4",
+		"language": "en",
+		"note": "collection-title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-032-37092-1_18",
+		"page": "316-333",
+		"publisher": "Springer Nature Switzerland",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "VectorReLoc: Reliable Vectorized SD Map Visual Re-localization with Contrastive Feature Alignment",
+		"title-short": "VectorReLoc",
+		"URL": "https://link.springer.com/10.1007/978-3-032-37092-1_18",
+		"volume": "17060",
+		"editor": [
+			{
+				"family": "Favaro",
+				"given": "Paolo"
+			},
+			{
+				"family": "Kukelova",
+				"given": "Zuzana"
+			},
+			{
+				"family": "Maki",
+				"given": "Atsuto"
+			},
+			{
+				"family": "Rohrbach",
+				"given": "Anna"
+			},
+			{
+				"family": "Schindler",
+				"given": "Konrad"
+			},
+			{
+				"family": "Tombari",
+				"given": "Federico"
+			}
+		],
+		"author": [
+			{
+				"family": "Liu",
+				"given": "Ziming"
+			},
+			{
+				"family": "Xiang",
+				"given": "Quanjie"
+			},
+			{
+				"family": "Wang",
+				"given": "Yun"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiting"
+			},
+			{
+				"family": "Chao",
+				"given": "Wen"
+			},
+			{
+				"family": "Xu",
+				"given": "Zhuanjian"
+			},
+			{
+				"family": "Wang",
+				"given": "Leichen"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Gao",
+				"given": "Guangyu"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/Y6Q3GBVP",
+		"type": "article-journal",
+		"container-title": "IEEE Robotics and Automation Letters",
+		"DOI": "10.1109/LRA.2026.3653316",
+		"ISSN": "2377-3766, 2377-3774",
+		"issue": "3",
+		"journalAbbreviation": "IEEE Robot. Autom. Lett.",
+		"page": "2354-2361",
+		"source": "DOI.org (Crossref)",
+		"title": "DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online Map Diffusion",
+		"title-short": "DiffSemanticFusion",
+		"URL": "https://ieeexplore.ieee.org/document/11347004/",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Sun",
+				"given": "Zhigang"
+			},
+			{
+				"family": "Wang",
+				"given": "Yiru"
+			},
+			{
+				"family": "Jiang",
+				"given": "Anqing"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuo"
+			},
+			{
+				"family": "Gao",
+				"given": "Yu"
+			},
+			{
+				"family": "Heng",
+				"given": "Yuwen"
+			},
+			{
+				"family": "Zhang",
+				"given": "Shouyi"
+			},
+			{
+				"family": "He",
+				"given": "An"
+			},
+			{
+				"family": "Jiang",
+				"given": "Hao"
+			},
+			{
+				"family": "Chai",
+				"given": "Jinhao"
+			},
+			{
+				"family": "Gu",
+				"given": "Zichong"
+			},
+			{
+				"family": "Jijun",
+				"given": "Wang"
+			},
+			{
+				"family": "Tang",
+				"given": "Shichen"
+			},
+			{
+				"family": "Halilaj",
+				"given": "Lavdim"
+			},
+			{
+				"family": "Luettin",
+				"given": "Juergen"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/R9CAZILF",
+		"type": "article",
+		"abstract": "Vision-Language-Action (VLA) models for autonomous driving show promise but falter in unstructured corner case scenarios, largely due to a scarcity of targeted benchmarks. To address this, we introduce Impromptu VLA. Our core contribution is the Impromptu VLA Dataset: over 80,000 meticulously curated video clips, distilled from over 2M source clips sourced from 8 open-source large-scale datasets. This dataset is built upon our novel taxonomy of four challenging unstructured categories and features rich, planning-oriented question-answering annotations and action trajectories. Crucially, experiments demonstrate that VLAs trained with our dataset achieve substantial performance gains on established benchmarks--improving closed-loop NeuroNCAP scores and collision rates, and reaching near state-of-the-art L2 accuracy in open-loop nuScenes trajectory prediction. Furthermore, our Q&A suite serves as an effective diagnostic, revealing clear VLM improvements in perception, prediction, and planning. Our code, data and models are available at https://github.com/ahydchh/Impromptu-VLA.",
+		"note": "arXiv:2505.23757 [cs:CV]",
+		"number": "arXiv:2505.23757",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models",
+		"title-short": "Impromptu VLA",
+		"URL": "http://arxiv.org/abs/2505.23757",
+		"author": [
+			{
+				"family": "Chi",
+				"given": "Haohan"
+			},
+			{
+				"family": "Gao",
+				"given": "Huan-ang"
+			},
+			{
+				"family": "Liu",
+				"given": "Ziming"
+			},
+			{
+				"family": "Liu",
+				"given": "Jianing"
+			},
+			{
+				"family": "Liu",
+				"given": "Chenyu"
+			},
+			{
+				"family": "Li",
+				"given": "Jinwei"
+			},
+			{
+				"family": "Yang",
+				"given": "Kaisen"
+			},
+			{
+				"family": "Yu",
+				"given": "Yangcheng"
+			},
+			{
+				"family": "Wang",
+				"given": "Zeda"
+			},
+			{
+				"family": "Li",
+				"given": "Wenyi"
+			},
+			{
+				"family": "Wang",
+				"given": "Leichen"
+			},
+			{
+				"family": "Hu",
+				"given": "Xingtao"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hang"
+			},
+			{
+				"family": "Zhao",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "https://rb-zotero.bosch.com/users/5003/items/JGZE5XXS",
+		"type": "chapter",
+		"container-title": "Mobile and Ubiquitous Systems: Computing, Networking and Services",
+		"event-place": "Cham",
+		"ISBN": "978-3-032-22502-3",
+		"language": "en",
+		"note": "collection-title: Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering\nDOI: 10.1007/978-3-032-22503-0_2",
+		"page": "19-38",
+		"publisher": "Springer Nature Switzerland",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "DASFO: Dependency-Aware Scalable Function Offloading Framework for Intelligent Connected Vehicles",
+		"title-short": "DASFO",
+		"URL": "https://link.springer.com/10.1007/978-3-032-22503-0_2",
+		"volume": "684",
+		"editor": [
+			{
+				"family": "Zhang",
+				"given": "Lei"
+			},
+			{
+				"family": "Choo",
+				"given": "Kim-Kwang Raymond"
+			}
+		],
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Jiayin"
+			},
+			{
+				"family": "Li",
+				"given": "Shuo"
+			},
+			{
+				"family": "Du",
+				"given": "Yifan"
+			},
+			{
+				"family": "Li",
+				"given": "Nan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					10,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		}
+	}
+]
