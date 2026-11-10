@@ -37,6 +37,7 @@ const theme = createTheme({
         html: {
           minWidth: 320,
           overflowX: "clip",
+          scrollPaddingTop: "var(--topbar-height, 65px)",
           scrollBehavior: "smooth",
         },
         body: {

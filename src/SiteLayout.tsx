@@ -7,41 +7,65 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import { Link, Outlet, useRouterState } from "@tanstack/react-router";
+import { Link, Outlet } from "@tanstack/react-router";
 import { siteData } from "./data";
 
 function SiteLayout() {
-  const pathname = useRouterState({
-    select: (state) => state.location.pathname,
-  });
   const headerRef = useRef<HTMLElement | null>(null);
   const [isOverVideo, setIsOverVideo] = useState(false);
 
   useEffect(() => {
     const header = headerRef.current;
-    const hero = document.getElementById("about");
+    const main = document.querySelector("main");
 
-    if (!header || !hero) {
+    if (!header || !main) {
       setIsOverVideo(false);
       return;
     }
 
-    const update = () => {
-      setIsOverVideo(
-        hero.getBoundingClientRect().bottom >
-          header.getBoundingClientRect().bottom,
+    const updateHeaderHeight = () => {
+      document.documentElement.style.setProperty(
+        "--topbar-height",
+        `${header.getBoundingClientRect().height}px`,
       );
     };
 
-    update();
-    window.addEventListener("scroll", update, { passive: true });
-    window.addEventListener("resize", update);
+    let heroObserver: IntersectionObserver | undefined;
+    const observeHero = () => {
+      heroObserver?.disconnect();
+      const hero = main.querySelector("#about");
+
+      if (!hero) {
+        setIsOverVideo(false);
+        return;
+      }
+
+      heroObserver = new IntersectionObserver(
+        ([entry]) => setIsOverVideo(entry.isIntersecting),
+        {
+          rootMargin: `-${header.getBoundingClientRect().height}px 0px 0px 0px`,
+        },
+      );
+      heroObserver.observe(hero);
+    };
+
+    updateHeaderHeight();
+    observeHero();
+    const mutationObserver = new MutationObserver(observeHero);
+    mutationObserver.observe(main, { childList: true, subtree: true });
+    const resizeObserver = new ResizeObserver(() => {
+      updateHeaderHeight();
+      observeHero();
+    });
+    resizeObserver.observe(header);
 
     return () => {
-      window.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
+      heroObserver?.disconnect();
+      mutationObserver.disconnect();
+      resizeObserver.disconnect();
+      document.documentElement.style.removeProperty("--topbar-height");
     };
-  }, [pathname]);
+  }, []);
 
   const navButtonSx = isOverVideo
     ? {

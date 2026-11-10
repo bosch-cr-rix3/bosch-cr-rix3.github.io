@@ -60,14 +60,14 @@ function App() {
         />
         <Container
           maxWidth="lg"
-          sx={{ position: "relative", zIndex: 2, textAlign: "center" }}
+          sx={{ position: "relative", zIndex: 2, textAlign: "center", pt:10, }}
         >
           <Typography
             component="h1"
             sx={{
               maxWidth: "26ch",
               mx: "auto",
-              fontSize: { xs: "2.65rem", md: "3.8rem" },
+              fontSize: { xs: "2rem", sm: "2.25rem", md: "3.8rem" },
               fontWeight: 400,
               lineHeight: 1.04,
               mb: 2.5,
@@ -81,7 +81,8 @@ function App() {
             sx={{
               maxWidth: "62ch",
               mx: "auto",
-              lineHeight: 1.7,
+              fontSize: { xs: "0.9375rem", md: "1rem" },
+              lineHeight: { xs: 1.6, md: 1.7 },
               color: "rgba(255, 255, 255, 0.9)",
             }}
             variant="body1"
@@ -107,9 +108,13 @@ function App() {
         component="section"
         id="publications"
         spacing={3}
-        sx={{ mt: { xs: 5, md: 8 } }}
+        sx={{ pt: { xs: 5, md: 8 } }}
       >
-        <Typography component="h2" variant="h2">
+        <Typography
+          component="h2"
+          sx={{ fontSize: { xs: "1.5rem", md: "1.8rem" } }}
+          variant="h2"
+        >
           Latest Publications
         </Typography>
         <PublicationGrid publications={siteData.publications.slice(0, 3)} />
@@ -131,9 +136,13 @@ function App() {
         component="section"
         id="awards"
         spacing={2}
-        sx={{ mt: { xs: 8, md: 14 } }}
+        sx={{ pt: { xs: 8, md: 14 } }}
       >
-        <Typography component="h2" variant="h2">
+        <Typography
+          component="h2"
+          sx={{ fontSize: { xs: "1.5rem", md: "1.8rem" } }}
+          variant="h2"
+        >
           Awards
         </Typography>
         <Stack
@@ -154,7 +163,9 @@ function App() {
               >
                 {award.year}
               </Typography>
-              <Typography>{award.name}</Typography>
+              <Typography sx={{ fontSize: { xs: "0.9375rem", md: "1rem" } }}>
+                {award.name}
+              </Typography>
             </Stack>
           ))}
         </Stack>

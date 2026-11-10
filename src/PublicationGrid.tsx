@@ -107,10 +107,21 @@ function PublicationGrid({ publications, filterable = false }: PublicationGridPr
                   }}
                   variant="outlined"
                 />
-                <Typography component="h3" variant="h6">
+                <Typography
+                  component="h3"
+                  sx={{ fontSize: { xs: "1.125rem", md: "1.25rem" } }}
+                  variant="h6"
+                >
                   {publication.title}
                 </Typography>
-                <Typography color="text.secondary" sx={{ flex: 1, lineHeight: 1.55 }}>
+                <Typography
+                  color="text.secondary"
+                  sx={{
+                    flex: 1,
+                    fontSize: { xs: "0.9375rem", md: "1rem" },
+                    lineHeight: 1.55,
+                  }}
+                >
                   {publication.abstractSummary}
                 </Typography>
                 <Stack direction="row" sx={{ flexWrap: "wrap", gap: 0.75 }}>

@@ -18,13 +18,13 @@ function PublicationsPage() {
         <Box>
           <Typography
             component="h1"
-            sx={{ fontSize: { xs: "2.4rem", md: "2.8rem" }, fontWeight: 400 }}
+            sx={{
+              fontSize: { xs: "2rem", sm: "2.25rem", md: "2.8rem" },
+              fontWeight: 400,
+            }}
             variant="h1"
           >
             Publications
-          </Typography>
-          <Typography color="text.secondary" sx={{ mt: 1 }}>
-            Research from Bosch Research CR/RIX3-AP.
           </Typography>
         </Box>
         <Button

@@ -7,9 +7,13 @@ function Affiliations() {
       component="section"
       id="affiliations"
       spacing={3}
-      sx={{ mt: { xs: 8, md: 14 } }}
+      sx={{ pt: { xs: 8, md: 14 } }}
     >
-      <Typography component="h2" variant="h2">
+      <Typography
+        component="h2"
+        sx={{ fontSize: { xs: "1.5rem", md: "1.8rem" } }}
+        variant="h2"
+      >
         Affiliations
       </Typography>
       <Box

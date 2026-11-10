@@ -27,7 +27,7 @@ export interface Affiliation {
 export const siteData = {
   teamName: "Bosch Research | CR/RIX3-AP",
   tagline:
-    "Pioneering Autonomous Driving Intelligence: Perception, Planning, Foundation Models & Cyber-Physical Systems",
+    "Pioneering Autonomous Driving Intelligence: Perception, Planning, Foundation Models & Physical AI",
   about:
     "We are researchers in the ADAS and Autonomous Driving field from Bosch Research. Our core competencies span foundational Perception, End-to-End Autonomous Driving, Vision-Language-Action (VLA) Foundation Models, HD Mapping, and Dependable Vehicle-Road-Cloud Continuum Systems.",
   publications,

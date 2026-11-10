@@ -182,7 +182,7 @@
 		"publisher-place": "Chengdu, China",
 		"source": "DOI.org (Crossref)",
 		"title": "Latency-Aware Function Offloading with 5G Integration for Intelligent Connected Vehicles",
-		"categories": ["Cyber-Physical Systems"],
+		"categories": ["Physical AI"],
 		"keywords": [
 			"5G",
 			"intelligent connected vehicles",
@@ -877,7 +877,7 @@
 		"source": "DOI.org (Crossref)",
 		"title": "Dependability-Aware Coordination for Infrastructure-Side Critical V2X Services",
 		"displayTitle": "Dependability-Aware Coordination for Infrastructure-Side Critical Cyber-Physical Services",
-		"categories": ["Cyber-Physical Systems"],
+		"categories": ["Physical AI"],
 		"keywords": [
 			"dependability",
 			"roadside infrastructure",
@@ -1346,7 +1346,7 @@
 		"publisher-place": "Cham",
 		"source": "DOI.org (Crossref)",
 		"title": "DASFO: Dependency-Aware Scalable Function Offloading Framework for Intelligent Connected Vehicles",
-		"categories": ["Cyber-Physical Systems"],
+		"categories": ["Physical AI"],
 		"abstractSummary": "Jointly optimizes function offloading, bandwidth allocation, and resource scaling for dependent vehicle-perception tasks, balancing latency, energy, cost, and queue stability.",
 		"keywords": [
 			"intelligent connected vehicles",
