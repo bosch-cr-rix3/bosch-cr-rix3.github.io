@@ -1,17 +1,14 @@
 import citationRecordsJson from "./publications.json";
 import type { Publication } from "./data";
 
-interface CitationAuthor {
-  family?: string;
-  given?: string;
-  literal?: string;
-}
-
 interface CitationRecord {
   abstract?: string;
-  author?: CitationAuthor[];
+  abstractSummary?: string;
+  categories?: string[];
+  displayTitle?: string;
   DOI?: string;
   issued?: { "date-parts"?: Array<Array<number | string>> };
+  keywords?: string[];
   publisher?: string;
   title: string;
   type?: string;
@@ -20,13 +17,6 @@ interface CitationRecord {
 }
 
 const citationRecords = citationRecordsJson as CitationRecord[];
-
-const typeLabels: Record<string, string> = {
-  "article-journal": "Journal article",
-  article: "Preprint",
-  chapter: "Book chapter",
-  "paper-conference": "Conference paper",
-};
 
 function getIssuedParts(record: CitationRecord) {
   return record.issued?.["date-parts"]?.[0] ?? [];
@@ -37,15 +27,11 @@ function getIssuedSortKey(record: CitationRecord) {
   return year * 10000 + month * 100 + day;
 }
 
-function getAuthorLine(authors: CitationAuthor[] = []) {
-  const names = authors.slice(0, 3).map((author) =>
-    author.literal ?? [author.given, author.family].filter(Boolean).join(" "),
-  );
-  const suffix = authors.length > 3 ? ", et al." : "";
-  return names.length > 0 ? `Authors: ${names.join(", ")}${suffix}` : "";
-}
+function getAbstractSummary(record: CitationRecord) {
+  if (record.abstractSummary) {
+    return record.abstractSummary;
+  }
 
-function getExcerpt(record: CitationRecord) {
   const abstract = record.abstract
     ?.replace(/\\textbf\{([^}]*)\}/g, "$1")
     .replace(/\s+/g, " ")
@@ -57,21 +43,20 @@ function getExcerpt(record: CitationRecord) {
       : abstract;
   }
 
-  return getAuthorLine(record.author);
+  return "Abstract unavailable from accessible sources.";
 }
 
 function toPublication(record: CitationRecord): Publication {
-  const typeLabel = typeLabels[record.type ?? ""] ?? "Publication";
-  const venue = record["container-title"] ?? record.publisher ?? typeLabel;
+  const venue = record["container-title"] ?? record.publisher ?? "Publication";
   const year = getIssuedParts(record)[0]?.toString();
   const badge = year && !venue.includes(year) ? `${venue} · ${year}` : venue;
   const url = record.URL ?? (record.DOI ? `https://doi.org/${record.DOI}` : undefined);
 
   return {
-    title: record.title,
+    title: record.displayTitle ?? record.title,
     badge,
-    excerpt: getExcerpt(record),
-    tags: [typeLabel],
+    abstractSummary: getAbstractSummary(record),
+    categories: record.categories ?? [],
     links: url ? [{ url, text: record.URL ? "Paper" : "DOI" }] : [],
   };
 }

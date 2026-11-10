@@ -1,24 +1,22 @@
 import {
   Box,
   Button,
-  Card,
-  CardContent,
   Container,
   Divider,
-  Grid,
   Stack,
   Typography,
 } from "@mui/material";
 import { Link } from "@tanstack/react-router";
 import ArrowRightIcon from "mdi-material-ui/ArrowRight";
 import { siteData } from "./data";
+import Affiliations from "./Affiliations";
 import PublicationGrid from "./PublicationGrid";
 
 function App() {
   return (
     <>
       <Box component="section" id="about" sx={{ py: { xs: 13, md: 18 } }}>
-        <Container maxWidth="md" sx={{ textAlign: "center" }}>
+        <Container maxWidth="lg" sx={{ textAlign: "center" }}>
           <Typography
             component="h1"
             sx={{
@@ -112,48 +110,7 @@ function App() {
         </Stack>
       </Stack>
 
-      <Stack
-        component="section"
-        id="partners"
-        spacing={3}
-        sx={{ mt: { xs: 8, md: 14 } }}
-      >
-        <Typography component="h2" variant="h2">
-          Partners
-        </Typography>
-        <Grid container spacing={1.5}>
-          {siteData.partners.map((partner) => (
-            <Grid key={partner.name} size={{ xs: 6, sm: 4, md: 3, lg: 2 }}>
-              <Card
-                component="article"
-                sx={{
-                  display: "grid",
-                  justifyItems: "center",
-                  alignContent: "center",
-                  gap: 1,
-                  height: "100%",
-                  minHeight: 130,
-                  p: 2,
-                  textAlign: "center",
-                }}
-                variant="outlined"
-              >
-                <Box
-                  alt={partner.name}
-                  component="img"
-                  src={partner.logo}
-                  sx={{ width: 105, height: 52, objectFit: "contain" }}
-                />
-                <CardContent sx={{ p: 0, "&:last-child": { pb: 0 } }}>
-                  <Typography color="text.secondary" variant="caption">
-                    {partner.name}
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </Stack>
+      <Affiliations />
     </>
   );
 }

@@ -49,11 +49,11 @@ function SiteLayout() {
               </Button>
               <Button
                 component={Link}
-                hash="partners"
+                hash="affiliations"
                 to="/"
                 variant="outlined"
               >
-                Partners
+                Affiliations
               </Button>
             </Stack>
           </Toolbar>

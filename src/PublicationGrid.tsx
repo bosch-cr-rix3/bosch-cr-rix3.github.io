@@ -7,6 +7,8 @@ import {
   Chip,
   Grid,
   Stack,
+  Tab,
+  Tabs,
   Typography,
 } from "@mui/material";
 import { useState } from "react";
@@ -19,36 +21,30 @@ interface PublicationGridProps {
 }
 
 function PublicationGrid({ publications, filterable = false }: PublicationGridProps) {
-  const [activeTag, setActiveTag] = useState("All");
-  const tags = ["All", ...new Set(publications.flatMap((item) => item.tags))];
+  const [activeCategory, setActiveCategory] = useState("All");
+  const categories = [
+    "All",
+    ...new Set(publications.flatMap((item) => item.categories)),
+  ];
   const visiblePublications =
-    !filterable || activeTag === "All"
+    !filterable || activeCategory === "All"
       ? publications
-      : publications.filter((item) => item.tags.includes(activeTag));
+      : publications.filter((item) => item.categories.includes(activeCategory));
 
   return (
     <Stack spacing={3}>
       {filterable && (
-        <Stack
+        <Tabs
           aria-label="Filter publications"
-          component="div"
-          direction="row"
-          role="group"
-          sx={{ alignItems: "center", flexWrap: "wrap", gap: 1 }}
+          onChange={(_, category: string) => setActiveCategory(category)}
+          scrollButtons="auto"
+          value={activeCategory}
+          variant="scrollable"
         >
-          {tags.map((tag) => (
-            <Button
-              aria-pressed={activeTag === tag}
-              key={tag}
-              onClick={() => setActiveTag(tag)}
-              variant={activeTag === tag ? "contained" : "outlined"}
-              disableElevation
-            
-            >
-              {tag}
-            </Button>
+          {categories.map((category) => (
+            <Tab key={category} label={category} value={category} />
           ))}
-        </Stack>
+        </Tabs>
       )}
       <Grid container spacing={{ xs: 2, md: 3 }}>
         {visiblePublications.map((publication) => (
@@ -115,16 +111,13 @@ function PublicationGrid({ publications, filterable = false }: PublicationGridPr
                   {publication.title}
                 </Typography>
                 <Typography color="text.secondary" sx={{ flex: 1, lineHeight: 1.55 }}>
-                  {publication.excerpt}
+                  {publication.abstractSummary}
                 </Typography>
-                <Stack
-                  direction="row"
-                  sx={{ flexWrap: "wrap", gap: 0.75 }}
-                >
-                  {publication.tags.map((tag) => (
+                <Stack direction="row" sx={{ flexWrap: "wrap", gap: 0.75 }}>
+                  {publication.categories.map((category) => (
                     <Chip
-                      key={tag}
-                      label={tag}
+                      key={category}
+                      label={category}
                       size="small"
                       sx={{ bgcolor: "#fae9df", color: "#86370f" }}
                     />

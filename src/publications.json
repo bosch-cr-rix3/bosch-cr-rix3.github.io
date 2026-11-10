@@ -12,6 +12,19 @@
 		"publisher-place": "Detroit, MI, USA",
 		"source": "DOI.org (Crossref)",
 		"title": "SemanticBEVFusion: Rethinking LiDAR-Camera Fusion in Unified Bird's-Eye View Representation for 3D Object Detection",
+		"categories": ["Perception & Mapping"],
+		"keywords": [
+			"LiDAR-camera fusion",
+			"bird's-eye view",
+			"3D object detection",
+			"autonomous driving",
+			"point clouds",
+			"semantic fusion",
+			"multimodal fusion",
+			"distant object detection",
+			"nuScenes"
+		],
+		"abstractSummary": "Combines camera features and LiDAR point clouds in a unified bird's-eye-view representation to improve 3D object detection, particularly for distant objects.",
 		"title-short": "SemanticBEVFusion",
 		"URL": "https://ieeexplore.ieee.org/document/10342368/",
 		"author": [
@@ -56,6 +69,19 @@
 		"publisher-place": "Abu Dhabi, United Arab Emirates",
 		"source": "DOI.org (Crossref)",
 		"title": "VoxelContrast: Voxel Contrast-Based Unsupervised Learning for 3D Point Clouds",
+		"categories": ["Perception & Mapping"],
+		"keywords": [
+			"unsupervised learning",
+			"3D point clouds",
+			"contrastive learning",
+			"instance discrimination",
+			"voxelization",
+			"LiDAR point cloud",
+			"autonomous driving",
+			"3D object detection",
+			"small annotated datasets"
+		],
+		"abstractSummary": "Introduces voxel-based contrastive pretraining for LiDAR point clouds, targeting better transfer to classification and 3D detection with limited labeled data.",
 		"title-short": "VoxelContrast",
 		"URL": "https://ieeexplore.ieee.org/document/10802435/",
 		"author": [
@@ -100,6 +126,18 @@
 		"publisher-place": "Yokohama, Japan",
 		"source": "DOI.org (Crossref)",
 		"title": "LSSAttn: Towards Dense and Accurate View Transformation for Multi-modal 3D Object Detection",
+		"categories": ["Perception & Mapping"],
+		"keywords": [
+			"multimodal fusion",
+			"LiDAR-camera fusion",
+			"3D object detection",
+			"view transformation",
+			"attention mechanism",
+			"cross-attention",
+			"multi-scale feature fusion",
+			"nuScenes"
+		],
+		"abstractSummary": "Adds attention-based dense associations between camera-view pixels and bird's-eye-view cells to improve LiDAR-camera feature fusion for 3D detection.",
 		"title-short": "LSSAttn",
 		"URL": "https://ieeexplore.ieee.org/document/10610830/",
 		"author": [
@@ -144,6 +182,15 @@
 		"publisher-place": "Chengdu, China",
 		"source": "DOI.org (Crossref)",
 		"title": "Latency-Aware Function Offloading with 5G Integration for Intelligent Connected Vehicles",
+		"categories": ["Cyber-Physical Systems"],
+		"keywords": [
+			"5G",
+			"intelligent connected vehicles",
+			"vision-language models",
+			"vision-language-action models",
+			"cloud offloading"
+		],
+		"abstractSummary": "Presents a 5G-aware function-offloading framework with fine-grained latency monitoring and network-quality controls for cloud-enhanced vehicle AI.",
 		"URL": "https://ieeexplore.ieee.org/document/11310495/",
 		"author": [
 			{
@@ -195,6 +242,16 @@
 		"publisher-place": "Hangzhou, China",
 		"source": "DOI.org (Crossref)",
 		"title": "SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map Construction",
+		"categories": ["Perception & Mapping"],
+		"keywords": [
+			"sparse representation",
+			"bird's-eye view",
+			"semantic segmentation",
+			"noise reduction",
+			"online map building",
+			"nuScenes"
+		],
+		"abstractSummary": "Improves sparse online HD-map construction through a dedicated feature extractor, auxiliary segmentation, and denoising guided by physical priors.",
 		"title-short": "SparseMeXt",
 		"URL": "https://ieeexplore.ieee.org/document/11246853/",
 		"author": [
@@ -279,6 +336,17 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model",
+		"categories": ["Planning & Control"],
+		"keywords": [
+			"vision-language-action policies",
+			"autonomous driving",
+			"inverse reinforcement learning",
+			"imitation learning",
+			"proximal policy optimization",
+			"sensor simulation",
+			"domain gap"
+		],
+		"abstractSummary": "Trains a VLA policy with imitation learning, then uses an inverse-reinforcement-learning reward model for efficient closed-loop PPO refinement; it reports state-of-the-art NAVSIM v2 results and a runner-up finish in the CVPR 2025 Autonomous Grand Challenge.",
 		"title-short": "IRL-VLA",
 		"URL": "http://arxiv.org/abs/2508.06571",
 		"author": [
@@ -371,6 +439,17 @@
 		"publisher-place": "Vienna, Austria",
 		"source": "DOI.org (Crossref)",
 		"title": "UniUncer: Unified Dynamic–Static Uncertainty for End-to-End Driving",
+		"categories": ["Planning & Control", "Perception & Mapping"],
+		"keywords": [
+			"end-to-end driving",
+			"autonomous driving",
+			"uncertainty estimation",
+			"uncertainty fusion",
+			"trajectory prediction",
+			"multi-sensor perception",
+			"nuScenes"
+		],
+		"abstractSummary": "Unifies uncertainty estimates for static map elements and dynamic agents so an end-to-end planner can better handle noisy sensing and uncertain interactions.",
 		"title-short": "UniUncer",
 		"URL": "https://ieeexplore.ieee.org/document/11696998/",
 		"author": [
@@ -446,6 +525,20 @@
 		"publisher-place": "Vienna, Austria",
 		"source": "DOI.org (Crossref)",
 		"title": "Unified Map Prior Encoder for Mapping and Planning",
+		"categories": ["Perception & Mapping", "Planning & Control"],
+		"keywords": [
+			"web mapping",
+			"end-to-end planning",
+			"autonomous driving",
+			"vector map",
+			"raster maps",
+			"satellite imagery",
+			"cross-attention",
+			"trajectory prediction",
+			"collision avoidance",
+			"VAD"
+		],
+		"abstractSummary": "Fuses heterogeneous vector and raster map priors with confidence-aware alignment to improve online mapping and end-to-end planning.",
 		"URL": "https://ieeexplore.ieee.org/document/11696336/",
 		"author": [
 			{
@@ -536,6 +629,17 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving",
+		"categories": ["Planning & Control"],
+		"keywords": [
+			"vision-language-action models",
+			"autonomous driving",
+			"trajectory generation",
+			"3D spatial reasoning",
+			"temporal reasoning",
+			"language grounding",
+			"multisensory perception"
+		],
+		"abstractSummary": "Combines geometric and temporal context with driving commands in a hierarchical VLA model, using token sparsification and waypoint refinement to improve reliable trajectory generation on NAVSIM v2.",
 		"title-short": "HiST-VLA",
 		"URL": "http://arxiv.org/abs/2602.13329",
 		"author": [
@@ -602,6 +706,16 @@
 		"page": "1339-1350",
 		"source": "DOI.org (Crossref)",
 		"title": "Autonomous Exploration and Mapping System Using Heterogeneous UAVs and UGVs in GPS-Denied Environments",
+		"categories": ["Perception & Mapping", "Planning & Control"],
+		"keywords": [
+			"autonomous exploration",
+			"3D mapping",
+			"GPS-denied environments",
+			"active SLAM",
+			"OctoMap",
+			"environment reconstruction"
+		],
+		"abstractSummary": "Coordinates UAVs and UGVs in a two-stage exploration and mapping workflow using active SLAM and shared path planning in GPS-denied 3D environments.",
 		"URL": "https://ieeexplore.ieee.org/document/8598942/",
 		"volume": "68",
 		"author": [
@@ -663,6 +777,22 @@
 		"page": "100191",
 		"source": "DOI.org (Crossref)",
 		"title": "Towards robust motion control in multi-source uncertain scenarios by robust policy iteration",
+		"categories": ["Planning & Control"],
+		"keywords": [
+			"robust motion control",
+			"autonomous driving",
+			"distribution shift",
+			"sim-to-real gap",
+			"long-tailed distributions",
+			"zero-sum games",
+			"worst-case optimization",
+			"Taylor series expansion",
+			"penalty method",
+			"measurement noise",
+			"generalization",
+			"multi-source uncertainty"
+		],
+		"abstractSummary": "Uses robust policy iteration and scenario rebalancing to improve driving-control generalization under observation noise, traffic uncertainty, and sim-to-real shifts.",
 		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S2772424725000319",
 		"volume": "5",
 		"author": [
@@ -746,6 +876,20 @@
 		"publisher-place": "Chengdu, China",
 		"source": "DOI.org (Crossref)",
 		"title": "Dependability-Aware Coordination for Infrastructure-Side Critical V2X Services",
+		"displayTitle": "Dependability-Aware Coordination for Infrastructure-Side Critical Cyber-Physical Services",
+		"categories": ["Cyber-Physical Systems"],
+		"keywords": [
+			"dependability",
+			"roadside infrastructure",
+			"Kubernetes",
+			"container orchestration",
+			"fault detection",
+			"automatic emergency braking",
+			"safety-critical systems",
+			"urban intersections",
+			"cyber-physical systems"
+		],
+		"abstractSummary": "Introduces a roadside coordinator that monitors critical cyber-physical service pipelines, detects faults, and reallocates workloads to maintain service continuity.",
 		"URL": "https://ieeexplore.ieee.org/document/11310629/",
 		"author": [
 			{
@@ -797,6 +941,16 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving",
+		"categories": ["Perception & Mapping", "Planning & Control"],
+		"keywords": [
+			"end-to-end autonomous driving",
+			"traffic signals",
+			"traffic signs",
+			"plug-and-play integration",
+			"vision-language-action models",
+			"nuScenes"
+		],
+		"abstractSummary": "Adds structured traffic-signal and road-sign awareness through a plug-and-play integration evaluated across multiple driving model families and datasets, improving end-to-end driving performance.",
 		"URL": "http://arxiv.org/abs/2608.18035",
 		"author": [
 			{
@@ -870,12 +1024,21 @@
 		"event-place": "Cham",
 		"ISBN": "978-3-032-37091-4",
 		"language": "en",
+		"abstract": "Standard-definition (SD) maps are widely used in autonomous driving, but accurate ego-centric SD map retrieval typically relies on costly RTK-GNSS joint localization. In contrast, low-cost GNSS introduces meter-level 3-DoF pose offsets with high variance, yielding misaligned local maps that can degrade downstream planning and control. Prior visual re-localization methods mostly rely on dense rasterized BEV representations, which are computation-heavy and easily distracted by scene content irrelevant to road geometry. We propose VectorReLoc, the first sparse re-localization framework that directly aligns vectorized SD maps with online-constructed vectorized visual maps to estimate the 3-DoF pose offset. VectorReLoc further introduces a feature alignment objective that structures the embedding space for accurate offset regression, together with a reliability predictor to identify potentially unreliable corrections and mitigate silent failures. To enable realistic training and evaluation, we additionally present a large-scale dataset with paired RTK-retrieved and GNSS-retrieved SD maps, providing real pose-offset labels rather than simulated noise used in prior work. Experiments on public benchmarks and the proposed dataset demonstrate improved accuracy, robustness, and efficiency over previous approaches.",
 		"note": "collection-title: Lecture Notes in Computer Science\nDOI: 10.1007/978-3-032-37092-1_18",
 		"page": "316-333",
 		"publisher": "Springer Nature Switzerland",
 		"publisher-place": "Cham",
 		"source": "DOI.org (Crossref)",
 		"title": "VectorReLoc: Reliable Vectorized SD Map Visual Re-localization with Contrastive Feature Alignment",
+		"categories": ["Perception & Mapping", "Planning & Control"],
+		"abstractSummary": "Aligns sparse vectorized SD maps with online visual maps to estimate GNSS pose offsets, adds a reliability predictor for uncertain corrections, and introduces a dataset with real pose-offset labels.",
+		"keywords": [
+			"GNSS positioning",
+			"autonomous driving",
+			"reliability prediction",
+			"map retrieval"
+		],
 		"title-short": "VectorReLoc",
 		"URL": "https://link.springer.com/10.1007/978-3-032-37092-1_18",
 		"volume": "17060",
@@ -971,6 +1134,15 @@
 		"page": "2354-2361",
 		"source": "DOI.org (Crossref)",
 		"title": "DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online Map Diffusion",
+		"categories": ["Perception & Mapping", "Planning & Control"],
+		"keywords": [
+			"autonomous driving",
+			"trajectory prediction",
+			"path planning",
+			"multimodal fusion",
+			"road geometry"
+		],
+		"abstractSummary": "Fuses semantic raster bird's-eye-view features with online map diffusion for trajectory prediction and planning-oriented autonomous driving.",
 		"title-short": "DiffSemanticFusion",
 		"URL": "https://ieeexplore.ieee.org/document/11347004/",
 		"volume": "11",
@@ -1067,6 +1239,16 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models",
+		"categories": ["Planning & Control"],
+		"keywords": [
+			"vision-language-action models",
+			"autonomous driving",
+			"open-source dataset",
+			"trajectory prediction",
+			"nuScenes",
+			"open weights"
+		],
+		"abstractSummary": "Introduces an open VLA dataset of over 80,000 curated clips from eight source datasets, with planning-oriented annotations and trajectories that improve driving benchmarks.",
 		"title-short": "Impromptu VLA",
 		"URL": "http://arxiv.org/abs/2505.23757",
 		"author": [
@@ -1155,6 +1337,7 @@
 		"type": "chapter",
 		"container-title": "Mobile and Ubiquitous Systems: Computing, Networking and Services",
 		"event-place": "Cham",
+		"abstract": "Advances in edge and cloud computing have increased the accessibility of bandwidth and computational resources, allowing Intelligent Connected Vehicles (ICV) to offload perception functions to the cloud, reducing dependence on high-power onboard units. However, these perception applications often consist of interdependent tasks and must operate under dynamic network conditions, making it difficult to balance real-time performance with energy and cost constraints. To address these challenges, this paper proposes DASFO, a multi-stage framework that jointly optimizes offloading decisions, bandwidth allocation, and scalable resource management. DASFO aims to maintain long-term queue stability while respecting energy and cost budgets, explicitly accounting for function dependencies. At its core, we employ a Deep Reinforcement Learning (DRL) agent enhanced with Graph Convolutional Network (GCN) embeddings to model inter-function dependencies, with a near-optimal strategy for bandwidth allocation and resource scaling. Experimental results demonstrate that DASFO effectively balances processing latency, energy consumption, and cost, while incurring minimal decision-making overhead.",
 		"ISBN": "978-3-032-22502-3",
 		"language": "en",
 		"note": "collection-title: Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering\nDOI: 10.1007/978-3-032-22503-0_2",
@@ -1163,6 +1346,18 @@
 		"publisher-place": "Cham",
 		"source": "DOI.org (Crossref)",
 		"title": "DASFO: Dependency-Aware Scalable Function Offloading Framework for Intelligent Connected Vehicles",
+		"categories": ["Cyber-Physical Systems"],
+		"abstractSummary": "Jointly optimizes function offloading, bandwidth allocation, and resource scaling for dependent vehicle-perception tasks, balancing latency, energy, cost, and queue stability.",
+		"keywords": [
+			"intelligent connected vehicles",
+			"bandwidth allocation",
+			"resource scaling",
+			"deep reinforcement learning",
+			"graph convolutional networks",
+			"queue stability",
+			"edge-cloud computing",
+			"processing delay"
+		],
 		"title-short": "DASFO",
 		"URL": "https://link.springer.com/10.1007/978-3-032-22503-0_2",
 		"volume": "684",
