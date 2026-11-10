@@ -36,6 +36,7 @@ const theme = createTheme({
       styleOverrides: {
         html: {
           minWidth: 320,
+          overflowX: "clip",
           scrollBehavior: "smooth",
         },
         body: {

@@ -15,8 +15,53 @@ import PublicationGrid from "./PublicationGrid";
 function App() {
   return (
     <>
-      <Box component="section" id="about" sx={{ py: { xs: 13, md: 18 } }}>
-        <Container maxWidth="lg" sx={{ textAlign: "center" }}>
+      <Box
+        component="section"
+        id="about"
+        sx={{
+          position: "relative",
+          isolation: "isolate",
+          display: "flex",
+          alignItems: "center",
+          minHeight: "100vh",
+          width: "100vw",
+          left: "50%",
+          ml: "-50vw",
+          mt: { xs: "-114px", sm: "-65px" },
+          overflow: "hidden",
+          py: { xs: 8, md: 12 },
+          color: "common.white",
+          "@media (max-width: 359px)": { mt: "-159px" },
+          "&::before": {
+            content: '""',
+            position: "absolute",
+            inset: 0,
+            zIndex: 1,
+            backgroundColor: "rgba(0, 0, 0, 0.7)",
+          },
+        }}
+      >
+        <Box
+          aria-hidden="true"
+          autoPlay
+          component="video"
+          loop
+          muted
+          playsInline
+          src="/landing.mp4"
+          sx={{
+            position: "absolute",
+            inset: 0,
+            zIndex: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+        <Container
+          maxWidth="lg"
+          sx={{ position: "relative", zIndex: 2, textAlign: "center" }}
+        >
           <Typography
             component="h1"
             sx={{
@@ -26,14 +71,19 @@ function App() {
               fontWeight: 400,
               lineHeight: 1.04,
               mb: 2.5,
+              color: "common.white",
             }}
             variant="h1"
           >
             {siteData.tagline}
           </Typography>
           <Typography
-            color="text.secondary"
-            sx={{ maxWidth: "62ch", mx: "auto", lineHeight: 1.7 }}
+            sx={{
+              maxWidth: "62ch",
+              mx: "auto",
+              lineHeight: 1.7,
+              color: "rgba(255, 255, 255, 0.9)",
+            }}
             variant="body1"
           >
             {siteData.about}
