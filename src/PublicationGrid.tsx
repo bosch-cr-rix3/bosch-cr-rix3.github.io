@@ -12,8 +12,11 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import ImageOutlineIcon from "mdi-material-ui/ImageOutline";
 import type { Publication } from "./data";
+
+const MotionGrid = motion.create(Grid);
 
 interface PublicationGridProps {
   publications: Publication[];
@@ -22,6 +25,7 @@ interface PublicationGridProps {
 
 function PublicationGrid({ publications, filterable = false }: PublicationGridProps) {
   const [activeCategory, setActiveCategory] = useState("All");
+  const prefersReducedMotion = useReducedMotion();
   const categories = [
     "All",
     ...new Set(publications.flatMap((item) => item.categories)),
@@ -47,8 +51,39 @@ function PublicationGrid({ publications, filterable = false }: PublicationGridPr
         </Tabs>
       )}
       <Grid container spacing={{ xs: 2, md: 3 }}>
-        {visiblePublications.map((publication) => (
-          <Grid key={publication.title} size={{ xs: 12, md: 6, lg: 4 }}>
+        <AnimatePresence initial={false} mode="popLayout">
+          {visiblePublications.map((publication, index) => (
+            <MotionGrid
+              key={`${activeCategory}-${publication.title}`}
+              layout={!prefersReducedMotion}
+              initial={
+                prefersReducedMotion
+                  ? false
+                  : {
+                      opacity: 0,
+                      rotate: index % 2 === 0 ? -3 : 3,
+                      scale: 0.94,
+                      y: 20,
+                    }
+              }
+              animate={{ opacity: 1, rotate: 0, scale: 1, y: 0 }}
+              exit={
+                prefersReducedMotion
+                  ? { opacity: 0 }
+                  : { opacity: 0, rotate: index % 2 === 0 ? 2 : -2, scale: 0.96, y: -12 }
+              }
+              transition={
+                prefersReducedMotion
+                  ? { duration: 0 }
+                  : {
+                      type: "spring",
+                      stiffness: 360,
+                      damping: 30,
+                      delay: Math.min(index, 8) * 0.035,
+                    }
+              }
+              size={{ xs: 12, md: 6, lg: 4 }}
+            >
             <Card
               component="article"
               sx={{
@@ -151,8 +186,9 @@ function PublicationGrid({ publications, filterable = false }: PublicationGridPr
                 ))}
               </CardActions>
             </Card>
-          </Grid>
-        ))}
+            </MotionGrid>
+          ))}
+        </AnimatePresence>
       </Grid>
     </Stack>
   );

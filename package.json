@@ -16,6 +16,7 @@
     "@mui/material": "^9.5.0",
     "@tanstack/react-router": "^1.120.5",
     "mdi-material-ui": "^8.0.0",
+    "motion": "^14.11.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

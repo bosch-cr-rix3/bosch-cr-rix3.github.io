@@ -3,8 +3,13 @@ import { Link } from "@tanstack/react-router";
 import ArrowLeftIcon from "mdi-material-ui/ArrowLeft";
 import { siteData } from "./data";
 import PublicationGrid from "./PublicationGrid";
+import { useEffect } from "react";
 
 function PublicationsPage() {
+  useEffect(()=>{
+    console.log(siteData.publications.length)
+  },[siteData])
+
   return (
     <Stack component="section" spacing={3} sx={{ mt: { xs: 5, md: 8 } }}>
       <Stack
