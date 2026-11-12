@@ -26,12 +26,35 @@ export interface Affiliation {
 
 export const siteData = {
   teamName: "Bosch Research | CR/RIX3-AP",
-  tagline:
-    "Pioneering Autonomous Driving Intelligence: Perception, Planning, Foundation Models & Physical AI",
+  tagline: "Pioneering Physical AI - from research to real-world impact",
   about:
-    "We are researchers in the ADAS and Autonomous Driving field from Bosch Research. Our core competencies span foundational Perception, End-to-End Autonomous Driving, Vision-Language-Action (VLA) Foundation Models, HD Mapping, and Dependable Vehicle-Road-Cloud Continuum Systems.",
+    "We are a team of researchers at Bosch Research pioneering the next generation of Physical AI. Our research spans Perception, Planning, End-to-End Autonomous Driving, World Action Model, Closed-Loop Reinforcement Learning, and Edge AI Infrastructure with a focus on developing intelligent systems that can perceive, understand, predict, and act in the physical world. \nWe bridge cutting-edge AI research and real-world applications, transforming foundational advances into robust, scalable, and deployable AI capabilities for autonomous driving, robotics and software defined vehicle. ",
   publications,
   awards: [
+    {
+      name: "Top 1 in CVPR2026 Critical Object Detection Competition",
+      year: 2026,
+    },
+    {
+      name: "Shanghai Collaborative Innovation Program for Foreign-Invested Research and Development",
+      year: 2026,
+    },
+    {
+      name: "Changning University-Industry Collaborative Talent Development Program",
+      year: 2026,
+    },
+    {
+      name: "Linkong Outstanding Technology Innovation Prize: End-to-End Driving",
+      year: 2026,
+    },
+    {
+      name: "First Prize in Open Gateway Innovation Challenge: Autonomous Driving on Cloud",
+      year: 2025,
+    },
+    {
+      name: "Top 2 in CVPR2025 NAVSIM v2 End-to-End Driving Challenge",
+      year: 2025,
+    },
     {
       name: "First Prize - Unicom Open Gateway Global Use Case Innovation Challenge 2025 - Autonomous Driving on Cloud",
       year: 2025,
@@ -39,6 +62,10 @@ export const siteData = {
     {
       name: "2025年临空园区优秀科创项目奖 - 端到端自动驾驶项目",
       year: 2025,
+    },
+    {
+      name: "Top 4 in CVPR2024 Map-less Driving Challenge",
+      year: 2024,
     },
   ] satisfies Award[],
   affiliations: [
@@ -114,7 +141,10 @@ export const siteData = {
       name: "Télécom ParisTech",
       logo: "/images/affiliations/Logo_Télécom_ParisTech.svg",
     },
-    { name: "Tongji University", logo: "/images/affiliations/同济大学-logo.svg" },
+    {
+      name: "Tongji University",
+      logo: "/images/affiliations/同济大学-logo.svg",
+    },
     {
       name: "Universität Konstanz",
       logo: "/images/affiliations/Universitat_Konstanz_logo.svg",
@@ -151,6 +181,9 @@ export const siteData = {
       name: "Waseda University",
       logo: "/images/affiliations/Waseda_university_logo.svg",
     },
-    { name: "Wuhan University", logo: "/images/affiliations/武汉大学-logo.svg" },
+    {
+      name: "Wuhan University",
+      logo: "/images/affiliations/武汉大学-logo.svg",
+    },
   ] satisfies Affiliation[],
 };

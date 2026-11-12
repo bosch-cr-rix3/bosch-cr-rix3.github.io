@@ -79,11 +79,12 @@ function App() {
           </Typography>
           <Typography
             sx={{
-              maxWidth: "62ch",
+              maxWidth: "70ch",
               mx: "auto",
               fontSize: { xs: "0.9375rem", md: "1rem" },
               lineHeight: { xs: 1.6, md: 1.7 },
               color: "rgba(255, 255, 255, 0.9)",
+              whiteSpace: "pre-line",
             }}
             variant="body1"
           >
