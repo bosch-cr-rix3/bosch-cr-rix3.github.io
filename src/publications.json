@@ -1,6 +1,7 @@
 [
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/HNM7DCI3",
+		"img": "/images/papers/semantic_bev_fusion.png",
 		"type": "paper-conference",
 		"container-title": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
 		"DOI": "10.1109/IROS55552.2023.10342368",
@@ -12,7 +13,9 @@
 		"publisher-place": "Detroit, MI, USA",
 		"source": "DOI.org (Crossref)",
 		"title": "SemanticBEVFusion: Rethinking LiDAR-Camera Fusion in Unified Bird's-Eye View Representation for 3D Object Detection",
-		"categories": ["Perception & Mapping"],
+		"categories": [
+			"Perception & Mapping"
+		],
 		"keywords": [
 			"LiDAR-camera fusion",
 			"bird's-eye view",
@@ -58,6 +61,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/H884TX95",
+		"img": "/images/papers/voxelcontrast.png",
 		"type": "paper-conference",
 		"container-title": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
 		"DOI": "10.1109/IROS58592.2024.10802435",
@@ -69,7 +73,9 @@
 		"publisher-place": "Abu Dhabi, United Arab Emirates",
 		"source": "DOI.org (Crossref)",
 		"title": "VoxelContrast: Voxel Contrast-Based Unsupervised Learning for 3D Point Clouds",
-		"categories": ["Perception & Mapping"],
+		"categories": [
+			"Perception & Mapping"
+		],
 		"keywords": [
 			"unsupervised learning",
 			"3D point clouds",
@@ -115,6 +121,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/LNEWMI9F",
+		"img": "/images/papers/lssattn.png",
 		"type": "paper-conference",
 		"container-title": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
 		"DOI": "10.1109/ICRA57147.2024.10610830",
@@ -126,7 +133,9 @@
 		"publisher-place": "Yokohama, Japan",
 		"source": "DOI.org (Crossref)",
 		"title": "LSSAttn: Towards Dense and Accurate View Transformation for Multi-modal 3D Object Detection",
-		"categories": ["Perception & Mapping"],
+		"categories": [
+			"Perception & Mapping"
+		],
 		"keywords": [
 			"multimodal fusion",
 			"LiDAR-camera fusion",
@@ -171,6 +180,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/E7A6NZCU",
+		"img": "/images/papers/latency_aware_function_offloading.png",
 		"type": "paper-conference",
 		"container-title": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
 		"DOI": "10.1109/VTC2025-Fall65116.2025.11310495",
@@ -182,7 +192,9 @@
 		"publisher-place": "Chengdu, China",
 		"source": "DOI.org (Crossref)",
 		"title": "Latency-Aware Function Offloading with 5G Integration for Intelligent Connected Vehicles",
-		"categories": ["Physical AI"],
+		"categories": [
+			"AI Infrastructure"
+		],
 		"keywords": [
 			"5G",
 			"intelligent connected vehicles",
@@ -231,6 +243,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/3KIY8KIZ",
+		"img": "/images/papers/sparsemext.png",
 		"type": "paper-conference",
 		"container-title": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
 		"DOI": "10.1109/IROS60139.2025.11246853",
@@ -242,7 +255,9 @@
 		"publisher-place": "Hangzhou, China",
 		"source": "DOI.org (Crossref)",
 		"title": "SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map Construction",
-		"categories": ["Perception & Mapping"],
+		"categories": [
+			"Perception & Mapping"
+		],
 		"keywords": [
 			"sparse representation",
 			"bird's-eye view",
@@ -329,6 +344,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/29T8F58Z",
+		"img": "/images/papers/irl_vla.png",
 		"type": "article",
 		"abstract": "Vision-Language-Action (VLA) models have demonstrated potential in autonomous driving. However, two critical challenges hinder their development: (1) Existing VLA architectures are typically based on imitation learning in open-loop setup which tends to capture the recorded behaviors in the dataset, leading to suboptimal and constrained performance, (2) Close-loop training relies heavily on high-fidelity sensor simulation, where domain gaps and computational inefficiencies pose significant barriers. In this paper, we introduce IRL-VLA, a novel close-loop Reinforcement Learning via \\textbf{I}nverse \\textbf{R}einforcement \\textbf{L}earning reward world model with a self-built VLA approach. Our framework proceeds in a three-stage paradigm: In the first stage, we propose a VLA architecture and pretrain the VLA policy via imitation learning. In the second stage, we construct a lightweight reward world model via inverse reinforcement learning to enable efficient close-loop reward computation. To further enhance planning performance, finally, we design specialized reward world model guidence reinforcement learning via PPO(Proximal Policy Optimization) to effectively balance the safety incidents, comfortable driving, and traffic efficiency. Our approach achieves state-of-the-art performance in NAVSIM v2 end-to-end driving benchmark, 1st runner up in CVPR2025 Autonomous Grand Challenge. We hope that our framework will accelerate VLA research in close-loop autonomous driving.",
 		"note": "arXiv:2508.06571 [cs:AI, cs:cs:CV, cs:cs:RO]",
@@ -336,7 +352,9 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model",
-		"categories": ["Planning & Control"],
+		"categories": [
+			"Planning & Control"
+		],
 		"keywords": [
 			"vision-language-action policies",
 			"autonomous driving",
@@ -428,6 +446,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/AXH5X6AB",
+		"img": "/images/papers/uniuncer.png",
 		"type": "paper-conference",
 		"container-title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
 		"DOI": "10.1109/ICRA57385.2026.11696998",
@@ -439,7 +458,10 @@
 		"publisher-place": "Vienna, Austria",
 		"source": "DOI.org (Crossref)",
 		"title": "UniUncer: Unified Dynamic–Static Uncertainty for End-to-End Driving",
-		"categories": ["Planning & Control", "Perception & Mapping"],
+		"categories": [
+			"Planning & Control",
+			"Perception & Mapping"
+		],
 		"keywords": [
 			"end-to-end driving",
 			"autonomous driving",
@@ -514,6 +536,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/VXFMEA6W",
+		"img": "/images/papers/unified_map_prior_encoder.png",
 		"type": "paper-conference",
 		"container-title": "2026 IEEE International Conference on Robotics and Automation (ICRA)",
 		"DOI": "10.1109/ICRA57385.2026.11696336",
@@ -525,7 +548,10 @@
 		"publisher-place": "Vienna, Austria",
 		"source": "DOI.org (Crossref)",
 		"title": "Unified Map Prior Encoder for Mapping and Planning",
-		"categories": ["Perception & Mapping", "Planning & Control"],
+		"categories": [
+			"Perception & Mapping",
+			"Planning & Control"
+		],
 		"keywords": [
 			"web mapping",
 			"end-to-end planning",
@@ -622,6 +648,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/PMEPQLAX",
+		"img": "/images/papers/hist_vla.png",
 		"type": "article",
 		"abstract": "Vision-Language-Action (VLA) models offer promising capabilities for autonomous driving through multimodal understanding. However, their utilization in safety-critical scenarios is constrained by inherent limitations, including imprecise numerical reasoning, weak 3D spatial awareness, and high sensitivity to context. To address these challenges, we propose HiST-VLA, a novel Hierarchical Spatio-Temporal VLA model designed for reliable trajectory generation. Our framework enhances 3D spatial and temporal reasoning by integrating geometric awareness with fine-grained driving commands and state history prompting. To ensure computational efficiency, we integrate dynamic token sparsification into the VLA architecture. This approach fuses redundant tokens rather than filtering them, effectively reducing redundancy without sacrificing model performance. Furthermore, we employ a hierarchical transformer-based planner to progressively refine coarse VLA waypoints into fine-grained trajectories. Crucially, the planner utilizes dynamic latent regularization to incorporate language commands, ensuring strict spatial grounding and temporal coherence. Extensive evaluation on the NAVSIM v2 benchmark demonstrates state-of-the-art performance on Navtest, achieving an EPDMS of 88.6, and EPDMS of 50.9 on pseudo closed-loop Navhard benchmark.",
 		"note": "arXiv:2602.13329 [cs:CV, cs:cs:AI, cs:cs:RO]",
@@ -629,7 +656,9 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "HiST-VLA: A Hierarchical Spatio-Temporal Vision-Language-Action Model for End-to-End Autonomous Driving",
-		"categories": ["Planning & Control"],
+		"categories": [
+			"Planning & Control"
+		],
 		"keywords": [
 			"vision-language-action models",
 			"autonomous driving",
@@ -697,6 +726,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/PIEUXQQP",
+		"img": "/images/papers/tvt_2019.png",
 		"type": "article-journal",
 		"container-title": "IEEE Transactions on Vehicular Technology",
 		"DOI": "10.1109/TVT.2018.2890416",
@@ -706,7 +736,10 @@
 		"page": "1339-1350",
 		"source": "DOI.org (Crossref)",
 		"title": "Autonomous Exploration and Mapping System Using Heterogeneous UAVs and UGVs in GPS-Denied Environments",
-		"categories": ["Perception & Mapping", "Planning & Control"],
+		"categories": [
+			"Perception & Mapping",
+			"Planning & Control"
+		],
 		"keywords": [
 			"autonomous exploration",
 			"3D mapping",
@@ -768,6 +801,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/S9BX3T3R",
+		"img": "/images/papers/towards_robust_motion_control.png",
 		"type": "article-journal",
 		"container-title": "Communications in Transportation Research",
 		"DOI": "10.1016/j.commtr.2025.100191",
@@ -777,7 +811,9 @@
 		"page": "100191",
 		"source": "DOI.org (Crossref)",
 		"title": "Towards robust motion control in multi-source uncertain scenarios by robust policy iteration",
-		"categories": ["Planning & Control"],
+		"categories": [
+			"Planning & Control"
+		],
 		"keywords": [
 			"robust motion control",
 			"autonomous driving",
@@ -865,6 +901,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/ZVSKQWNS",
+		"img": "/images/papers/dependability_aware_coordination.png",
 		"type": "paper-conference",
 		"container-title": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
 		"DOI": "10.1109/VTC2025-Fall65116.2025.11310629",
@@ -877,7 +914,9 @@
 		"source": "DOI.org (Crossref)",
 		"title": "Dependability-Aware Coordination for Infrastructure-Side Critical V2X Services",
 		"displayTitle": "Dependability-Aware Coordination for Infrastructure-Side Critical Cyber-Physical Services",
-		"categories": ["Physical AI"],
+		"categories": [
+			"AI Infrastructure"
+		],
 		"keywords": [
 			"dependability",
 			"roadside infrastructure",
@@ -934,6 +973,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/8PIEKIDB",
+		"img": "/images/papers/plug_and_play.png",
 		"type": "article",
 		"abstract": "Traffic elements such as traffic lights and road signs play a fundamental role in human driving decisions and should naturally influence end-to-end driving performance. However, existing end-to-end driving research predominantly focuses on dynamic road participants (e.g., vehicles and pedestrians), while the role of traffic elements remains largely unexplored. The community still lacks a systematic study quantifying their impact, largely because public datasets rarely provide structured traffic-element annotations and modern driving systems vary widely in architecture and training paradigm. In this work, we present the first systematic investigation of traffic element awareness for end-to-end autonomous driving. We construct a unified research infrastructure by augmenting multiple public driving datasets with comprehensive traffic-element annotations. To support diverse model families, we adopt a minimal and universal integration design that incorporates traffic-element signals into existing pipelines in a plug-and-play manner with negligible architectural modification. We evaluate this design across modern paradigms, including perception-prediction-planning pipelines, vision-language-action models (VLA), regression-based planners, diffusion-based policies, and trajectory-scoring frameworks, on nuScenes, NAVSIM-v1, NAVSIM-v2, and Bench2Drive. Across all paradigms and datasets, this simple integration consistently improves driving performance, demonstrating that traffic element awareness provides a robust and generalizable signal for end-to-end driving systems. Notably, on the challenging NAVSIM-v2 benchmark, our approach significantly improves state-of-the-art architectures and data pipelines, establishing a new state of the art.",
 		"note": "arXiv:2608.18035 [cs:CV]",
@@ -941,7 +981,10 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "Plug-and-Play Traffic Element Awareness for End-to-End Autonomous Driving",
-		"categories": ["Perception & Mapping", "Planning & Control"],
+		"categories": [
+			"Perception & Mapping",
+			"Planning & Control"
+		],
 		"keywords": [
 			"end-to-end autonomous driving",
 			"traffic signals",
@@ -1019,6 +1062,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/L6IAXTTA",
+		"img": "/images/papers/vectorreloc.png",
 		"type": "chapter",
 		"container-title": "Computer Vision – ECCV 2026",
 		"event-place": "Cham",
@@ -1031,7 +1075,10 @@
 		"publisher-place": "Cham",
 		"source": "DOI.org (Crossref)",
 		"title": "VectorReLoc: Reliable Vectorized SD Map Visual Re-localization with Contrastive Feature Alignment",
-		"categories": ["Perception & Mapping", "Planning & Control"],
+		"categories": [
+			"Perception & Mapping",
+			"Planning & Control"
+		],
 		"abstractSummary": "Aligns sparse vectorized SD maps with online visual maps to estimate GNSS pose offsets, adds a reliability predictor for uncertain corrections, and introduces a dataset with real pose-offset labels.",
 		"keywords": [
 			"GNSS positioning",
@@ -1125,6 +1172,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/Y6Q3GBVP",
+		"img": "/images/papers/diffsemanticfusion.png",
 		"type": "article-journal",
 		"container-title": "IEEE Robotics and Automation Letters",
 		"DOI": "10.1109/LRA.2026.3653316",
@@ -1134,7 +1182,10 @@
 		"page": "2354-2361",
 		"source": "DOI.org (Crossref)",
 		"title": "DiffSemanticFusion: Semantic Raster BEV Fusion for Autonomous Driving via Online Map Diffusion",
-		"categories": ["Perception & Mapping", "Planning & Control"],
+		"categories": [
+			"Perception & Mapping",
+			"Planning & Control"
+		],
 		"keywords": [
 			"autonomous driving",
 			"trajectory prediction",
@@ -1232,6 +1283,7 @@
 	},
 	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/R9CAZILF",
+		"img": "/images/papers/impromptu.png",
 		"type": "article",
 		"abstract": "Vision-Language-Action (VLA) models for autonomous driving show promise but falter in unstructured corner case scenarios, largely due to a scarcity of targeted benchmarks. To address this, we introduce Impromptu VLA. Our core contribution is the Impromptu VLA Dataset: over 80,000 meticulously curated video clips, distilled from over 2M source clips sourced from 8 open-source large-scale datasets. This dataset is built upon our novel taxonomy of four challenging unstructured categories and features rich, planning-oriented question-answering annotations and action trajectories. Crucially, experiments demonstrate that VLAs trained with our dataset achieve substantial performance gains on established benchmarks--improving closed-loop NeuroNCAP scores and collision rates, and reaching near state-of-the-art L2 accuracy in open-loop nuScenes trajectory prediction. Furthermore, our Q&A suite serves as an effective diagnostic, revealing clear VLM improvements in perception, prediction, and planning. Our code, data and models are available at https://github.com/ahydchh/Impromptu-VLA.",
 		"note": "arXiv:2505.23757 [cs:CV]",
@@ -1239,7 +1291,9 @@
 		"publisher": "arXiv",
 		"source": "arXiv.org",
 		"title": "Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models",
-		"categories": ["Planning & Control"],
+		"categories": [
+			"Planning & Control"
+		],
 		"keywords": [
 			"vision-language-action models",
 			"autonomous driving",
@@ -1333,8 +1387,67 @@
 		}
 	},
 	{
+		"id": "https://doi.org/10.1007/978-3-032-22503-0_3",
+		"img": "/images/papers/towards_rds.png",
+		"type": "chapter",
+		"container-title": "Mobile and Ubiquitous Systems: Computing, Networking and Services",
+		"DOI": "10.1007/978-3-032-22503-0_3",
+		"ISBN": "978-3-032-22502-3",
+		"language": "en",
+		"page": "39-54",
+		"publisher": "Springer Nature Switzerland",
+		"publisher-place": "Cham",
+		"source": "DOI.org (Crossref)",
+		"title": "Towards Reliable Distributed Systems for Safety-Critical Vehicle-Road-Cloud Continuum",
+		"categories": [
+			"AI Infrastructure"
+		],
+		"abstract": "The vehicle–road–cloud continuum has emerged as a promising architecture for enabling intelligent connected vehicles, supporting safety-critical functions such as infrastructure-assisted driving and cognition-intensive AI inference. However, practical deployment remains hindered by gaps in timing assurance, fault handling, and adaptability—especially in edge and cloud platforms built on general-purpose hardware and software. This paper presents a reliable system that contains: a dependability-aware coordination layer for edge-hosted V2X services and a latency-aware offloading framework for AI-based vehicle functions. The former enhances runtime monitoring, fault recovery, and real-time supervision without modifying the underlying orchestration stack; the latter enables end-to-end latency tracing and adaptive QoS control for large-scale model inference over the 5G network. The integrated system is implemented and evaluated in real-world urban street scenarios using commercial-off-the-shelf SoCs and 5G gateways. The system targets safety-critical use cases and derives timing budgets from standard V2X safety analyses, enabling risk-aware evaluation of deadline violations. Experimental results demonstrate improved fault resilience, tighter timing guarantees, and reliable performance under dynamic compute and network conditions, offering a unified foundation for dependable distributed mobility systems.",
+		"abstractSummary": "Examines reliability in distributed systems supporting the safety-critical vehicle-road-cloud continuum.",
+		"URL": "https://link.springer.com/10.1007/978-3-032-22503-0_3",
+		"author": [
+			{
+				"family": "Du",
+				"given": "Yifan"
+			},
+			{
+				"family": "Song",
+				"given": "Zhiying"
+			},
+			{
+				"family": "Li",
+				"given": "Nan"
+			},
+			{
+				"family": "Li",
+				"given": "Shuo"
+			},
+			{
+				"family": "Sun",
+				"given": "Hao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2026",
+					11,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2026"
+				]
+			]
+		}
+	},
+	{
 		"id": "https://rb-zotero.bosch.com/users/5003/items/JGZE5XXS",
 		"type": "chapter",
+		"img": "/images/papers/2025_mobiquitous_dasfo.png",
 		"container-title": "Mobile and Ubiquitous Systems: Computing, Networking and Services",
 		"event-place": "Cham",
 		"abstract": "Advances in edge and cloud computing have increased the accessibility of bandwidth and computational resources, allowing Intelligent Connected Vehicles (ICV) to offload perception functions to the cloud, reducing dependence on high-power onboard units. However, these perception applications often consist of interdependent tasks and must operate under dynamic network conditions, making it difficult to balance real-time performance with energy and cost constraints. To address these challenges, this paper proposes DASFO, a multi-stage framework that jointly optimizes offloading decisions, bandwidth allocation, and scalable resource management. DASFO aims to maintain long-term queue stability while respecting energy and cost budgets, explicitly accounting for function dependencies. At its core, we employ a Deep Reinforcement Learning (DRL) agent enhanced with Graph Convolutional Network (GCN) embeddings to model inter-function dependencies, with a near-optimal strategy for bandwidth allocation and resource scaling. Experimental results demonstrate that DASFO effectively balances processing latency, energy consumption, and cost, while incurring minimal decision-making overhead.",
@@ -1346,7 +1459,9 @@
 		"publisher-place": "Cham",
 		"source": "DOI.org (Crossref)",
 		"title": "DASFO: Dependency-Aware Scalable Function Offloading Framework for Intelligent Connected Vehicles",
-		"categories": ["Physical AI"],
+		"categories": [
+			"AI Infrastructure"
+		],
 		"abstractSummary": "Jointly optimizes function offloading, bandwidth allocation, and resource scaling for dependent vehicle-perception tasks, balancing latency, energy, cost, and queue stability.",
 		"keywords": [
 			"intelligent connected vehicles",

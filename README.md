@@ -6,4 +6,6 @@ Run `npm install`, then start Vite with `npm run dev`. The VS Code task **Vite: 
 
 ## GitHub Pages
 
-The site is configured for the root domain `https://bosch-cr-rix3.github.io/`. Run `npm run deploy` to build the app and publish `dist/` to the `gh-pages` branch. Configure the repository's Pages source to that branch and root folder before publishing.
+The site is configured for the root domain `https://bosch-cr-rix3.github.io/`. In the repository's **Settings > Pages > Build and deployment**, set **Source** to **GitHub Actions**.
+
+The **Deploy to GitHub Pages** workflow installs dependencies, builds the app, and publishes `dist/` on every push to `main`. It can also be started manually from the repository's **Actions** tab.

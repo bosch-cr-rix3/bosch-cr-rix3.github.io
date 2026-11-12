@@ -108,7 +108,7 @@ function PublicationGrid({ publications, filterable = false }: PublicationGridPr
                   alt={publication.title}
                   component="img"
                   image={publication.img}
-                  sx={{ aspectRatio: "16 / 9", objectFit: "cover" }}
+                  sx={{ aspectRatio: "16 / 9", objectFit: "contain" }}
                 />
               ) : (
                 <CardMedia

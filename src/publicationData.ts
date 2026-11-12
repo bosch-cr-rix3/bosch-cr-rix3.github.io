@@ -2,6 +2,7 @@ import citationRecordsJson from "./publications.json";
 import type { Publication } from "./data";
 
 interface CitationRecord {
+  img?: string;
   abstract?: string;
   abstractSummary?: string;
   categories?: string[];
@@ -55,6 +56,7 @@ function toPublication(record: CitationRecord): Publication {
   return {
     title: record.displayTitle ?? record.title,
     badge,
+    img: record.img ?? undefined,
     abstractSummary: getAbstractSummary(record),
     categories: record.categories ?? [],
     links: url ? [{ url, text: record.URL ? "Paper" : "DOI" }] : [],
